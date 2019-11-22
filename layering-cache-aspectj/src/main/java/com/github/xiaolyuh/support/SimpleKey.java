@@ -33,9 +33,13 @@ public class SimpleKey implements Serializable {
 
     public static final SimpleKey EMPTY = new SimpleKey();
 
-    private final Object[] params;
-    private final int hashCode;
+    private Object[] params;
 
+    private int hashCode;
+
+    public SimpleKey() {
+
+    }
 
     /**
      * Create a new {@link SimpleKey} instance.

@@ -7,7 +7,7 @@
     <groupId>com.github.xiaolyuh</groupId>
     <artifactId>layering-cache</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.9</version>
+    <version>1.1.9.1</version>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -54,9 +54,9 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <caffeine.version>2.6.0</caffeine.version>
-        <spring.data.redis.version>1.8.3.RELEASE</spring.data.redis.version>
+        <spring.data.redis.version>2.1.2.RELEASE</spring.data.redis.version>
         <jedis.version>2.9.0</jedis.version>
-        <spring.version>4.3.18.RELEASE</spring.version>
+        <spring.version>5.1.2.RELEASE</spring.version>
         <slf4j.version>1.7.25</slf4j.version>
         <fastjson.version>1.2.31</fastjson.version>
         <aspectj.version>1.8.10</aspectj.version>
@@ -65,7 +65,7 @@
         <kryo.version>3.0.3</kryo.version>
         <protostuff.version>1.6.0</protostuff.version>
 
-        <spring.boot.version>1.5.3.RELEASE</spring.boot.version>
+        <spring.boot.version>2.1.0.RELEASE</spring.boot.version>
 
     </properties>
 
